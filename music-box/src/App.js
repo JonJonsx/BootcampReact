@@ -1,15 +1,10 @@
 import React from 'react';
+import Inicial from './pages/Inicial'
 
-import NavBar from './components/NavBar';
-import HomePage from './components/HomePage';
-
-function App() {
+export default function App(){
   return (
     <div className="App">
-      <NavBar/>
-      <HomePage/>
+      <Inicial/>
     </div>
   );
 }
-
-export default App;
